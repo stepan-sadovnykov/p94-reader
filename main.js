@@ -15,4 +15,5 @@ export async function upload(event) {
         .replaceAll("\n", "<br/>")
         .replaceAll("[newpage]", "<hr/>");
     document.getElementById("text").innerHTML = content;
+    scrollTo(0, 0);
 }

@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>P4 Reader</title>
+    <title>P94 Reader</title>
     <script type="module">
         import {upload} from "./main.js";
         document.getElementById("file").onchange = upload
+        document.getElementById("file").ondrop = upload
     </script>
 </head>
 <body>
